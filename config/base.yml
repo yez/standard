@@ -1,4 +1,5 @@
-require: rubocop-performance
+require:
+  - rubocop-performance
 
 AllCops:
   # Prevent RuboCop from exploding when it finds an older-than-2.3 .ruby-version
@@ -476,127 +477,61 @@ Naming/UncommunicativeBlockParamName:
 Naming/VariableName:
   Enabled: true
 
-Rails/ActionFilter:
+Performance/Caller:
   Enabled: true
 
-Rails/ActiveRecordAliases:
+Performance/CompareWithBlock:
   Enabled: true
 
-Rails/ActiveSupportAliases:
+Performance/Count:
   Enabled: true
 
-Rails/ApplicationJob:
+Performance/Detect:
   Enabled: true
 
-Rails/ApplicationRecord:
+Performance/DoubleStartEndWith:
   Enabled: true
 
-Rails/AssertNot:
+Performance/EndWith:
   Enabled: true
 
-Rails/Blank:
+Performance/FixedSize:
   Enabled: true
 
-Rails/BulkChangeTable:
+Performance/FlatMap:
   Enabled: true
 
-Rails/CreateTableWithTimestamps:
+Performance/InefficientHashSearch:
   Enabled: true
 
-Rails/Date:
+Performance/RangeInclude:
   Enabled: true
 
-Rails/Delegate:
+Performance/RedundantMatch:
   Enabled: true
 
-Rails/DelegateAllowBlank:
+Performance/RedundantMerge:
   Enabled: true
 
-Rails/DynamicFindBy:
+Performance/RegexpMatch:
   Enabled: true
 
-Rails/EnumUniqueness:
+Performance/ReverseEach:
   Enabled: true
 
-Rails/EnvironmentComparison:
+Performance/Size:
   Enabled: true
 
-Rails/Exit:
+Performance/StartWith:
   Enabled: true
 
-Rails/FilePath:
+Performance/StringReplacement:
   Enabled: true
 
-Rails/FindBy:
+Performance/UnfreezeString:
   Enabled: true
 
-Rails/FindEach:
-  Enabled: true
-
-Rails/HasAndBelongsToMany:
-  Enabled: true
-
-Rails/HttpPositionalArguments:
-  Enabled: true
-
-Rails/HttpStatus:
-  Enabled: true
-
-Rails/InverseOf:
-  Enabled: true
-
-Rails/LexicallyScopedActionFilter:
-  Enabled: true
-
-Rails/NotNullColumn:
-  Enabled: true
-
-Rails/Output:
-  Enabled: true
-
-Rails/OutputSafety:
-  Enabled: true
-
-Rails/PluralizationGrammar:
-  Enabled: true
-
-Rails/Presence:
-  Enabled: true
-
-Rails/Present:
-  Enabled: true
-
-Rails/ReadWriteAttribute:
-  Enabled: true
-
-Rails/RedundantReceiverInWithOptions:
-  Enabled: true
-
-Rails/RefuteMethods:
-  Enabled: true
-
-Rails/RelativeDateConstant:
-  Enabled: true
-
-Rails/RequestReferer:
-  Enabled: true
-
-Rails/ReversibleMigration:
-  Enabled: true
-
-Rails/SafeNavigation:
-  Enabled: true
-
-Rails/ScopeArgs:
-  Enabled: true
-
-Rails/TimeZone:
-  Enabled: true
-
-Rails/UniqBeforePluck:
-  Enabled: true
-
-Rails/Validation:
+Performance/UriDefaultParser:
   Enabled: true
 
 Security/Eval:
